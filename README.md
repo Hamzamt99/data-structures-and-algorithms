@@ -20,4 +20,8 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+#### Challenges Table
+
+| **Name of The challenge** | **Link** |
+|------------------|------|
+|[Reverse Array]|[Reverse Array](./javascript/reverse/README.md)|
