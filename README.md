@@ -25,3 +25,4 @@ To run your tests
 | **Name of The challenge** | **Link** |
 |------------------|------|
 |[Reverse Array]|[Reverse Array](./javascript/reverse/README.md)|
+|[insert Array]|[insert Array](./javascript/insert-Shift-Array/README.md)|
