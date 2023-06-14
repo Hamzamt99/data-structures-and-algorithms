@@ -3,7 +3,7 @@
 function reverseArray which takes an array as an argument. Without utilizing any of the built-in methods, return an array with elements in reversed order.
 
 ## Whiteboard Process
-![whiteBoard](./assets/Whiteboard.jpg)
+![whiteBoard](./assets/whiteboard.jpg)
 
 ## Approach & Efficiency
 ### The approach taken by the list function to reverse an array is straightforward and involves iterating through the input array and adding each element at the beginning of a new array using the unshift operation 
