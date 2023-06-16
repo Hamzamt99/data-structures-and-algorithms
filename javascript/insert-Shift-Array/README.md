@@ -20,11 +20,21 @@ we need to consider the additional space used by the function as the input size 
 Variables: The function uses a few variables, such as middle to store the middle index. These variables have constant space requirements and do not depend on the input size. Therefore, their contribution to the space complexity is considered O(1).
 
 ## Solution
- function insertShiftArray (arr,value){
-    let middle = Math.floor(arr.length / 2)
-    arr[middle] = value
-   for(let i =0;i<arr.length;i++){
-   }
-   return;
-} 
+function insertShiftArray(arr, value) {
+
+    let middleIndex = Math.ceil(arr.length / 2);
+  
+    let newArr = new Array(arr.length + 1);
+  
+    for (let i = 0; i < middleIndex; i++) {
+      newArr[i] = arr[i];
+    }
+    newArr[middleIndex] = value;
+  
+    for (let j = middleIndex + 1; j < newArr.length; j++) {
+      newArr[j] = arr[j - 1];
+    }
+    // console.log(newArr)
+    return newArr;
+  }
 
