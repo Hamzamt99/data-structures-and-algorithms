@@ -27,3 +27,4 @@ To run your tests
 |[Reverse Array]|[Reverse Array](./javascript/reverse/README.md)|
 |[insert Array]|[insert Array](./javascript/insert-Shift-Array/README.md)|
 |[linked-list]|[linked-list](./javascript/linked-list/README.md)|
+|[linked-list]|[linked-list](./javascript/BinarySearch/README.md)|
