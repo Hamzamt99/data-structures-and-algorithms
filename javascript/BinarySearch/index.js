@@ -11,7 +11,10 @@ function Search(value,arr){
         }else{
             lower = middle +1
         }
+        break;
     }
     return -1
 }
+
+
 module.exports = Search;
