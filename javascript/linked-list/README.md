@@ -4,6 +4,9 @@ Create a Node class that has properties for the value stored in the Node, and a 
 ## Whiteboard Process
 ![whiteBoard](./assets/whiteBoard.jpg)
 
+## diagram for k-th value from the end of a linked list.
+![whiteBoard](./assets/whiteBoard2.jpg)
+
 ## Approach & Efficiency
 
 ### Approach:
