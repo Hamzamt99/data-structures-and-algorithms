@@ -144,6 +144,32 @@ class LinkedList {
 
     return slow.value;
   }
+    zipLists(list1, list2) {
+    const zippedList = new LinkedList();
+    let current1 = list1.head;
+    let current2 = list2.head;
+
+    while (current1 !== null && current2 !== null) {
+      zippedList.append(current1.value);
+      zippedList.append(current2.value);
+      current1 = current1.next;
+      current2 = current2.next;
+    }
+
+    // If list1 is longer than list2, append the remaining nodes from list1
+    while (current1 !== null) {
+      zippedList.append(current1.value);
+      current1 = current1.next;
+    }
+
+    // If list2 is longer than list1, append the remaining nodes from list2
+    while (current2 !== null) {
+      zippedList.append(current2.value);
+      current2 = current2.next;
+    }
+
+    return zippedList;
+  }
 
 
   // convert the node to this format node -> node -> null
@@ -161,14 +187,18 @@ class LinkedList {
   }
 
 }
-const ll = new LinkedList();
-ll.append(100)
-ll.append(200)
-ll.append('a')
-ll.getAllValues();
-let test = ll.isInclude('a')
-// console.log(test)
-// console.log(ll.toString())
+const list1 = new LinkedList();
+list1.append(1);
+list1.append(3);
+list1.append(5);
 
+const list2 = new LinkedList();
+list2.append(2);
+list2.append(4);
+list2.append(6);
+list2.append(8);
+
+const zippedList = list1.zipLists(list1, list2);
+console.log(zippedList.toString());
 
 module.exports = LinkedList;
