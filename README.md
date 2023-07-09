@@ -29,3 +29,5 @@ To run your tests
 |[linked-list]|[linked-list](./javascript/linked-list/README.md)|
 |[BinarySearch]|[BinarySearch](./javascript/BinarySearch/README.md)|
 |[Stack-and-Queue]|[Stack-and-Queue](./javascript/Stack-and-Queue/README.md)|
+|[stack-queue-pseudo]|[stack-queue-pseudo](./javascript/stack-queue-pseudo/README.md)|
+
