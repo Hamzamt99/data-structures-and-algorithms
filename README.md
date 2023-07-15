@@ -31,3 +31,5 @@ To run your tests
 |[Stack-and-Queue]|[Stack-and-Queue](./javascript/Stack-and-Queue/README.md)|
 |[stack-queue-pseudo]|[stack-queue-pseudo](./javascript/stack-queue-pseudo/README.md)|
 |[stack-queue-animal-shelter]|[stack-queue-animal-shelter](./javascript/stack-queue-animal-shelter/README.md)|
+|[stack-queue-brackets]|[stack-queue-brackets](./javascript/stack-queue-brackets/README.md)|
+
