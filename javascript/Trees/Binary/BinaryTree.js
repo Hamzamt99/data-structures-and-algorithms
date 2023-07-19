@@ -40,6 +40,22 @@ class BinaryTree {
         traversal(this.Root)
         return array
     }
+    
+    findmax(){
+        let currentNode = this.Root
+        while(currentNode.right){
+            currentNode = currentNode.right
+        }
+        return currentNode.value
+    }
+
+    findmin(){
+        let currentNode = this.Root
+        while(currentNode.left){
+            currentNode = currentNode.left
+        }
+        return currentNode.value
+    }
 
     isEmpty() {
         return this.Root === null
@@ -75,6 +91,7 @@ class BinarySearchTree extends BinaryTree {
 
         return false
     }
+
 }
 
 
