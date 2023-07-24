@@ -33,6 +33,6 @@ To run your tests
 |[stack-queue-animal-shelter]|[stack-queue-animal-shelter](./javascript/stack-queue-animal-shelter/README.md)|
 |[stack-queue-brackets]|[stack-queue-brackets](./javascript/stack-queue-brackets/README.md)|
 |[Trees]|[Trees](./javascript/Trees/Binary/README.md)|
-|[Trees-findMax]|[Trees-findMax](./javascript/Trees/Binary/README.md)|
+|[tree-breadth-first]|[tree-breadth-first](./javascript/Trees/Binary/README.md)|
 
 
