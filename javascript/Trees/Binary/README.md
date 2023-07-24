@@ -1,20 +1,37 @@
 # Challenge Title 
-## find max in binary tree
+## tree-breadth-first
 
 ## whiteboard:
-![whiteBoard](./whiteboard.jpg)
+![whiteBoard](./tree-breadth-first.jpg)
 
 
 ## Approach & Efficiency:
-i Used a method to find the max in the tree which is taking the root and keep looping right until there are no children that when the max is found and the time complixety for it is o(1) and space is o(n) and the big O is o(log n)
+i Used a method to get all roots in the tree which is taking the root and its left and push it and then the root right and push it and start again from root left and the same approach until there are no children and the time complixety for it is o(1) and space is o(n) and the big O is o(log n)
 ## Solution:
 ### Node Class:
 
 'use strict'
-  findmax(){
-        let currentNode = this.Root
-        while(currentNode.right){
-            currentNode = currentNode.right
+  breadthFirst(tree) {
+        if (!tree.Root) {
+          return [];
         }
-        return currentNode.value
-    }
+      
+        const queue = [tree.Root];
+        const array = [];
+      
+        while (queue.length > 0) {
+          const currentNode = queue.shift();
+          array.push(currentNode.value);
+      
+          if (currentNode.left) {
+            queue.push(currentNode.left);
+          }
+      
+          if (currentNode.right) {
+            queue.push(currentNode.right);
+          }
+        }
+      
+        return array;
+      }
+

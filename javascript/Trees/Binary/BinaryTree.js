@@ -40,22 +40,47 @@ class BinaryTree {
         traversal(this.Root)
         return array
     }
-    
-    findmax(){
+
+    findmax() {
         let currentNode = this.Root
-        while(currentNode.right){
+        while (currentNode.right) {
             currentNode = currentNode.right
         }
         return currentNode.value
     }
 
-    findmin(){
+    findmin() {
         let currentNode = this.Root
-        while(currentNode.left){
+        while (currentNode.left) {
             currentNode = currentNode.left
         }
         return currentNode.value
     }
+    breadthFirst(tree) {
+        if (!tree.Root) {
+            return [];
+        }
+
+        const queue = [tree.Root];
+        const array = [];
+
+        while (queue.length > 0) {
+            const currentNode = queue.shift();
+            array.push(currentNode.value);
+
+            if (currentNode.left) {
+                queue.push(currentNode.left);
+            }
+
+            if (currentNode.right) {
+                queue.push(currentNode.right);
+            }
+        }
+
+        return array;
+    }
+
+
 
     isEmpty() {
         return this.Root === null
