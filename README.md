@@ -34,5 +34,8 @@ To run your tests
 |[stack-queue-brackets]|[stack-queue-brackets](./javascript/stack-queue-brackets/README.md)|
 |[Trees]|[Trees](./javascript/Trees/Binary/README.md)|
 |[tree-breadth-first]|[tree-breadth-first](./javascript/Trees/Binary/README.md)|
+|[k-ary]|[k-ary](./javascript/Trees/k-ary/README.md)|
+
+
 
 
