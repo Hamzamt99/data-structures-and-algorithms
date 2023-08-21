@@ -1,5 +1,6 @@
 # sort insertion
 ## WhiteBoard
+## pull request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/22
 
 ![WhiteBoard](./assets/whiteboard.jpg) 
 
