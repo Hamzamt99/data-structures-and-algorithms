@@ -35,6 +35,7 @@ To run your tests
 |[Trees]|[Trees](./javascript/Trees/Binary/README.md)|
 |[tree-breadth-first]|[tree-breadth-first](./javascript/Trees/Binary/README.md)|
 |[k-ary]|[k-ary](./javascript/Trees/k-ary/README.md)|
+|[sort-insertion]|[sort-insertion](./javascript/sorting-insertion/README.md)|
 
 
 
