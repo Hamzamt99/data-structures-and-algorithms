@@ -37,7 +37,7 @@ To run your tests
 |[k-ary]|[k-ary](./javascript/Trees/k-ary/README.md)|
 |[sort-insertion]|[sort-insertion](./javascript/sorting-insertion/README.md)|
 |[sort-merge]|[sort-merge](./javascript/merge-sort/README.md)|
-|[sortMethd]|[sortMethd](./javascript/sortMethd/README.md)|
+|[sortMethd]|[sortMethd](./javascript/sortMethod/README.md)|
 
 
 
