@@ -3,7 +3,7 @@
 ## pull request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/25
 
 ## Test Image
-![unit-test](./jest.test.png)
+![unit-test](./assets/test.jest.png)
 
 
 ## Code
