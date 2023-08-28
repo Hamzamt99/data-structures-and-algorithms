@@ -31,15 +31,16 @@ describe('Comparator Functions', () => {
     ];
 
     describe('moviesYear', () => {
-        it('should correctly sort movies by year in descending order', () => {
+        it('sort movies by year in descending order', () => {
             const sortedMovies = movies.slice().sort(moviesYear);
             for (let i = 0; i < sortedMovies.length - 1; i++) {
                 assert(sortedMovies[i].year >= sortedMovies[i + 1].year);
             }
         });
     });
+
     describe('moviesTittle', () => {
-        it('should correctly sort movies by title', () => {
+        it('sort movies by title', () => {
             const sortedMovies = movies.slice().sort(moviesTittle);
             for (let i = 0; i < sortedMovies.length - 1; i++) {
                 assert(sortedMovies[i].title.localeCompare(sortedMovies[i + 1].title) <= 1);
@@ -48,9 +49,8 @@ describe('Comparator Functions', () => {
     });
 
 
-
     describe('titleSort', () => {
-        it('should remove common articles and return the cleaned title', () => {
+        it('remove common articles and return the cleaned title', () => {
             const testCases = [
                 { input: 'The Shawshank Redemption', output: 'Shawshank Redemption' },
                 { input: 'A Quiet Place', output: 'Quiet Place' },
