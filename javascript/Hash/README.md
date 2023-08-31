@@ -1,6 +1,6 @@
 # Hash Table Implementation
 
-## Pull Request:
+## Pull Request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/27
 
 ## Big O:
 ### Time Complexity:
