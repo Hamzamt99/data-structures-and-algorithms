@@ -38,6 +38,8 @@ To run your tests
 |[sort-insertion]|[sort-insertion](./javascript/sorting-insertion/README.md)|
 |[sort-merge]|[sort-merge](./javascript/merge-sort/README.md)|
 |[sortMethd]|[sortMethd](./javascript/sortMethod/README.md)|
+|[HashTable]|[HashTable](./javascript/Hash/README.md)|
+
 
 
 
