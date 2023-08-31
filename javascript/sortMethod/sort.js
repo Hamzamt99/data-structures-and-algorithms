@@ -31,9 +31,9 @@ function moviesYear(a, b) {
     return b.year - a.year
 }
 
-// console.log('before sorting by year', movies);
-// movies.sort(moviesYear)
-// console.log('after sorting by year', movies);
+console.log('before sorting by year', movies);
+movies.sort(moviesYear)
+console.log('after sorting by year', movies);
 
 function moviesTittle(a, b) {
     const A = titleSort(a.title)

@@ -32,16 +32,17 @@ describe('Comparator Functions', () => {
 
     describe('moviesYear', () => {
         it('sort movies by year in descending order', () => {
-            const sortedMovies = movies.slice().sort(moviesYear);
-            for (let i = 0; i < sortedMovies.length - 1; i++) {
+            // const sortedMovies = movies.slice().sort(moviesYear);
+            for (let i = 0; i < movies.length - 1; i++) {
                 assert(sortedMovies[i].year >= sortedMovies[i + 1].year);
             }
+            excpect()
         });
     });
 
     describe('moviesTittle', () => {
         it('sort movies by title', () => {
-            const sortedMovies = movies.slice().sort(moviesTittle);
+            // const sortedMovies = movies.slice().sort(moviesTittle);
             for (let i = 0; i < sortedMovies.length - 1; i++) {
                 assert(sortedMovies[i].title.localeCompare(sortedMovies[i + 1].title) <= 1);
             }
