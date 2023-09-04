@@ -39,6 +39,7 @@ To run your tests
 |[sort-merge]|[sort-merge](./javascript/merge-sort/README.md)|
 |[sortMethd]|[sortMethd](./javascript/sortMethod/README.md)|
 |[HashTable]|[HashTable](./javascript/Hash/README.md)|
+|[HashMap]|[HashMap](./javascript/Hash/hashmap/README.md)|
 
 
 
