@@ -10,13 +10,13 @@ function repeatedWord(str) {
         if (wordMap.has(wordRep)) {
             return wordRep;
         } else {
-            wordMap.set(wordRep, str);
+            wordMap.set(wordRep, true);
         }
     }
 
     return 'No repeated word';
 }
 
-const input = "It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York..."
+const input = "It was a queer, sultry , summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York..."
 const repeated = repeatedWord(input);
 console.log(repeated);

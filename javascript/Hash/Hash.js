@@ -74,8 +74,6 @@ class Hash {
 
 module.exports = Hash
 
-
-
 // hashed.set('hamza', 'student');
 // hashed.set('khaled', 'student');
 // hashed.set('sameer', 'student');
