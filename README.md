@@ -41,6 +41,9 @@ To run your tests
 |[HashTable]|[HashTable](./javascript/Hash/README.md)|
 |[HashMap]|[HashMap](./javascript/Hash/hashmap/README.md)|
 |[treesHash]|[treesHash](./javascript/Hash/treesHash/README.md)|
+|[Graphs]|[Graphs](./javascript/Graphs/README.md)|
+
+
 
 
 
