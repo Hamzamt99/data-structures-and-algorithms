@@ -42,6 +42,7 @@ To run your tests
 |[HashMap]|[HashMap](./javascript/Hash/hashmap/README.md)|
 |[treesHash]|[treesHash](./javascript/Hash/treesHash/README.md)|
 |[Graphs]|[Graphs](./javascript/Graphs/README.md)|
+|[two-tree]|[two-tree](./javascript/Hash/stringHash/README.md)|
 
 
 
