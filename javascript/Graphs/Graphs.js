@@ -39,6 +39,36 @@ class Graphs {
         return this.List.size
     }
 
+    breadthFirst(node) {
+        if (!this.List.has(node)) {
+            console.log('Start node not found');
+            return [];
+        }
+
+        const visited = new Set();
+        const queue = [node];
+        const result = [];
+
+        while (queue.length > 0) {
+            const currentVertex = queue.shift();
+
+            if (!visited.has(currentVertex)) {
+                visited.add(currentVertex);
+                result.push(currentVertex);
+
+                const neighbors = this.getNeighbors(currentVertex);
+
+                for (const neighbor of neighbors) {
+                    if (!visited.has(neighbor.node)) {
+                        queue.push(neighbor.node);
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
+
 }
 
 const vertice1 = new verticesNode(1)
