@@ -71,17 +71,59 @@ class Graphs {
 
 }
 
+function businessTrip(graph, cities) {
+    if (!Array.isArray(cities) || cities.length < 2) {
+        return null;
+    }
+
+    let totalCost = 0;
+
+    for (let i = 0; i < cities.length - 1; i++) {
+        const startCity = cities[i];
+        const endCity = cities[i + 1];
+
+        if (!graph.List.has(startCity) || !graph.List.has(endCity)) {
+            return null;
+        }
+
+        const neighbors = graph.getNeighbors(startCity);
+        let found = false;
+
+        for (const neighbor of neighbors) {
+            if (neighbor.node === endCity) {
+                totalCost += neighbor.weight;
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            return null;
+        }
+    }
+
+    return totalCost;
+}
+const graph = new Graphs()
 const vertice1 = new verticesNode(1)
 const vertice2 = new verticesNode(2)
 const vertice3 = new verticesNode(3)
 
-const graph = new Graphs()
+const tripCost = businessTrip(graph, [vertice1, vertice3]);
+if (tripCost !== null) {
+    console.log(`trip cost ${tripCost}`);
+} else {
+    console.log('trip not possible.');
+}
+
+
+
 const vertice4 = 5
 graph.addVertices(vertice1)
 graph.addVertices(vertice2)
 graph.addVertices(vertice3)
 graph.addEdge(vertice1, vertice3, 4)
-console.log(graph.getNeighbors(vertice1));
+// console.log(graph.getNeighbors(vertice1));
 // console.log(graph.List.entries());
 
 
