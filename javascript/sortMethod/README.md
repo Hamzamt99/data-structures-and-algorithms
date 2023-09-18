@@ -1,7 +1,10 @@
 # Sort Method
 
+## pull request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/25
+
 ## Test Image
-![unit-test](./assets/jest.png)
+![unit-test](./assets/test.jest.png)
+
 
 ## Code
 

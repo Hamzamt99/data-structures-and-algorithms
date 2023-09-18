@@ -1,6 +1,6 @@
 # Graphs Implementation
 
-## Pull Request:
+## Pull Request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/32
 
 ## whiteBoard3
 ![whiteboard](./assets/whiteboard3.jpg)
@@ -70,5 +70,8 @@ function businessTrip(graph, cities) {
         }
     }
 
+
     return totalCost;
 }
+}
+
