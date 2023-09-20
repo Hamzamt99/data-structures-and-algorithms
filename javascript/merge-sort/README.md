@@ -1,6 +1,6 @@
 # Merge Sort Algorithm Explanation
 
-## Whiteboard Illustration
+## Whiteboard 
 
 ![WhiteBoard](./assets/whiteboard.jpg)
 

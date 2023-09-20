@@ -20,4 +20,34 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+#### Challenges Table
+
+| **Name of The challenge** | **Link** |
+|------------------|------|
+|[Reverse Array]|[Reverse Array](./javascript/reverse/README.md)|
+|[insert Array]|[insert Array](./javascript/insert-Shift-Array/README.md)|
+|[linked-list]|[linked-list](./javascript/linked-list/README.md)|
+|[BinarySearch]|[BinarySearch](./javascript/BinarySearch/README.md)|
+|[Stack-and-Queue]|[Stack-and-Queue](./javascript/Stack-and-Queue/README.md)|
+|[stack-queue-pseudo]|[stack-queue-pseudo](./javascript/stack-queue-pseudo/README.md)|
+|[stack-queue-animal-shelter]|[stack-queue-animal-shelter](./javascript/stack-queue-animal-shelter/README.md)|
+|[stack-queue-brackets]|[stack-queue-brackets](./javascript/stack-queue-brackets/README.md)|
+|[Trees]|[Trees](./javascript/Trees/Binary/README.md)|
+|[tree-breadth-first]|[tree-breadth-first](./javascript/Trees/Binary/README.md)|
+|[k-ary]|[k-ary](./javascript/Trees/k-ary/README.md)|
+|[sort-insertion]|[sort-insertion](./javascript/sorting-insertion/README.md)|
+|[sort-merge]|[sort-merge](./javascript/merge-sort/README.md)|
+|[sortMethd]|[sortMethd](./javascript/sortMethod/README.md)|
+|[HashTable]|[HashTable](./javascript/Hash/README.md)|
+|[HashMap]|[HashMap](./javascript/Hash/hashmap/README.md)|
+|[treesHash]|[treesHash](./javascript/Hash/treesHash/README.md)|
+|[Graphs]|[Graphs](./javascript/Graphs/README.md)|
+|[two-tree]|[two-tree](./javascript/Hash/stringHash/README.md)|
+|[trip]|[trip](./javascript/Graphs/README.md)|
+
+
+
+
+
+
+

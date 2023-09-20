@@ -1,6 +1,6 @@
 # Graphs Implementation
 
-## Pull Request:
+## Pull Request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/32
 
 ## whiteBoard4
 ![whiteboard](./assets/graphs.jpg)
@@ -143,4 +143,11 @@ class Graphs {
         return result;
     }
 
+
 }
+
+
+    return totalCost;
+}
+}
+
