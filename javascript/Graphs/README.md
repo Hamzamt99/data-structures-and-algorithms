@@ -1,7 +1,6 @@
 # Graphs Implementation
 
-## Pull Request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/32
-
+## Pull Request: https://github.com/Hamzamt99/data-structures-and-algorithms/pull/34/
 ## whiteBoard4
 ![whiteboard](./assets/graphs.jpg)
 
