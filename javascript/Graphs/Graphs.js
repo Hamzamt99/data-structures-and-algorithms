@@ -69,6 +69,33 @@ class Graphs {
         return result;
     }
 
+    depthFirst(node) {
+        if (!this.List.has(node)) {
+            console.log('Start node not found');
+            return [];
+        }
+
+        const visited = new Set();
+        const result = [];
+
+        const dfs = (currentNode) => {
+            visited.add(currentNode);
+            result.push(currentNode);
+
+            const neighbors = this.getNeighbors(currentNode);
+
+            for (const neighbor of neighbors) {
+                if (!visited.has(neighbor.node)) {
+                    dfs(neighbor.node);
+                }
+            }
+        };
+
+        dfs(node);
+
+        return result;
+    }
+
 }
 
 function businessTrip(graph, cities) {
