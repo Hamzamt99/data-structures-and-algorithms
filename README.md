@@ -44,6 +44,8 @@ To run your tests
 |[Graphs]|[Graphs](./javascript/Graphs/README.md)|
 |[two-tree]|[two-tree](./javascript/Hash/stringHash/README.md)|
 |[trip]|[trip](./javascript/Graphs/README.md)|
+|[graph-depth-first]|[graph-depth-first](./javascript/Graphs/README.md)|
+
 
 
 
